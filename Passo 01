@@ -6,3 +6,6 @@ function validarCPF($cpf) {
         return false;
     }
 }   
+if (!ctype_digit($cpf)) {
+        return false;
+    }
