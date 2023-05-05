@@ -1,0 +1,7 @@
+ // Verificar se os dígitos verificadores são iguais aos do CPF
+    if ($cpf[9] != $digito1 || $cpf[10] != $digito2) {
+        return false;
+    }
+    
+    return true;
+}
