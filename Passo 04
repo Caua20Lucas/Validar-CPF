@@ -1,0 +1,6 @@
+// Exemplo de uso
+if (validarCPF("918.397.860-78")) {
+    echo "CPF válido";
+} else {
+    echo "CPF inválido";
+}
